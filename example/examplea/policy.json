@@ -1,0 +1,63 @@
+{
+  "Statement": [
+    {
+      "Action": [
+        "appsync:CreateApiKey",
+        "appsync:CreateDataSource",
+        "appsync:CreateFunction",
+        "appsync:CreateGraphqlApi",
+        "appsync:CreateResolver",
+        "appsync:CreateType",
+        "appsync:DeleteApiKey",
+        "appsync:DeleteDataSource",
+        "appsync:DeleteFunction",
+        "appsync:DeleteGraphqlApi",
+        "appsync:DeleteResolver",
+        "appsync:DeleteType",
+        "appsync:GetDataSource",
+        "appsync:GetFunction",
+        "appsync:GetGraphqlApi",
+        "appsync:GetIntrospectionSchema",
+        "appsync:GetResolver",
+        "appsync:GetSchemaCreationStatus",
+        "appsync:GetType",
+        "appsync:GraphQL",
+        "appsync:ListApiKeys",
+        "appsync:ListDataSources",
+        "appsync:ListFunctions",
+        "appsync:ListGraphqlApis",
+        "appsync:ListResolvers",
+        "appsync:ListResolversByFunction",
+        "appsync:ListTagsForResource",
+        "appsync:ListTypes",
+        "appsync:StartSchemaCreation",
+        "appsync:TagResource",
+        "appsync:UntagResource",
+        "appsync:UpdateApiKey",
+        "appsync:UpdateDataSource",
+        "appsync:UpdateFunction",
+        "appsync:UpdateGraphqlApi",
+        "appsync:UpdateResolver",
+        "appsync:UpdateType"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Action": [
+        "iam:AttachRolePolicy",
+        "iam:CreateRole",
+        "iam:DeleteRole",
+        "iam:DetachRolePolicy",
+        "iam:GetRole",
+        "iam:ListAttachedRolePolicies",
+        "iam:ListInstanceProfilesForRole",
+        "iam:PassRole",
+        "iam:UpdateRole"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ],
+  "Version": "2012-10-17"
+}
