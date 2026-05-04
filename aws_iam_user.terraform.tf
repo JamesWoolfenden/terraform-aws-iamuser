@@ -1,4 +1,6 @@
 resource "aws_iam_user" "terraform" {
+  # checkov:skip=CKV2_AWS_22: IAM user module — console access is managed separately via login profile
+  # checkov:skip=CKV_AWS_273: IAM user module intended for programmatic access; SSO managed at org level
   name = var.username
   path = var.path
 
